@@ -1,0 +1,51 @@
+<template>
+  <div class="min-h-screen bg-black overflow-x-hidden">
+    <Navbar />
+    
+    <main>
+      <Hero />
+      
+      <section class="max-w-5xl mx-auto px-6 py-20 text-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-left">
+           <p class="text-2xl md:text-3xl text-off-white leading-tight font-medium">
+             {{ t('content.p1') }}
+           </p>
+           <div class="space-y-6 text-lg text-secondary-gray">
+              <p>{{ t('content.p2') }}</p>
+              <p>{{ t('content.p3') }}</p>
+           </div>
+        </div>
+      </section>
+
+      <Features />
+      <Privacy />
+    </main>
+
+    <Footer />
+  </div>
+</template>
+
+<script setup>
+const { t } = useI18n()
+
+// Seo
+useHead({
+  title: 'Petlytics — Smart Pet Health Management',
+  meta: [
+    { name: 'description', content: 'Transform everyday observations into valuable clinical data for your veterinarian.' }
+  ]
+})
+</script>
+
+<style>
+/* Global simple transitions */
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+</style>

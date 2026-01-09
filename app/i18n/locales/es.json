@@ -1,0 +1,97 @@
+{
+    "nav": {
+        "features": "Características",
+        "support": "Soporte",
+        "join": "Unirse a Petlytics"
+    },
+    "hero": {
+        "badge": "Beta Pública",
+        "title": "Salud animal.\nBajo control.",
+        "subtitle": "Todo lo que importa. En una sola vista.",
+        "cta": "Únete a la Beta",
+        "subtext": "Gratis para los primeros usuarios"
+    },
+    "intro": {
+        "title": "Diseñado para la claridad.",
+        "f1": "Registros clínicos",
+        "f2": "Seguimiento de síntomas",
+        "f3": "Alertas inteligentes",
+        "f4": "Informes PDF",
+        "f5": "Privacidad radical"
+    },
+    "content": {
+        "p1": "Petlytics es una plataforma integral de gestión de la salud de mascotas, diseñada por y para propietarios que esperan más que simples recordatorios de vacunación.",
+        "p2": "Es una herramienta técnica que transforma las observaciones cotidianas en datos clínicos valiosos para su veterinario.",
+        "p3": "¿Alguna vez ha ido a una cita veterinaria y le ha costado recordar exactamente cuándo empezaron los síntomas de su perro? ¿O le ha resultado difícil seguir el peso de su gato tras un cambio de dieta? Petlytics resuelve esto y mucho más organizando la vida médica de sus mascotas en un entorno seguro, privado y profesional."
+    },
+    "records": {
+        "title": "Registros clínicos de alta precisión",
+        "subtitle": "No deje la salud de su mascota en manos de la memoria. Con Petlytics, puede registrar:",
+        "symptoms": {
+            "t": "Síntomas y Observaciones",
+            "d": "Desde una leve cojera hasta cambios en el apetito o la digestión. Añada notas detalladas para que no se pierda ningún matiz."
+        },
+        "weight": {
+            "t": "Gestión del Peso",
+            "d": "Gráficos de progreso para controlar la obesidad o la pérdida de peso excesiva, factores clave en la salud a largo plazo."
+        },
+        "photos": {
+            "t": "Evidencia Fotográfica",
+            "d": "Una imagen vale más que mil palabras. Capture fotos de problemas cutáneos, anomalías oculares o comportamientos inusuales para que su veterinario pueda verlos exactamente como ocurrieron."
+        },
+        "docs": {
+            "t": "Documentos Médicos Digitalizados",
+            "d": "Suba análisis de sangre, informes de ecografías y registros de vacunación. Lleve todo su historial médico en el bolsillo."
+        }
+    },
+    "intelligence": {
+        "title": "Inteligencia clínica a su servicio",
+        "d1": "Petlytics incluye un avanzado Motor de Alertas Inteligentes. Nuestro algoritmo analiza la frecuencia y gravedad de los eventos registrados.",
+        "d2": "Si detecta patrones que pueden indicar un riesgo para la salud, recibirá una alerta sugiriendo que es hora de consultar a un profesional, como tener una primera línea de prevención activa 24/7."
+    },
+    "reports": {
+        "title": "Informes PDF para profesionales",
+        "subtitle": "El \"Puente Veterinario\"",
+        "d1": "Nuestros informes están diseñados para ser realmente útiles en un entorno veterinario.",
+        "unification": {
+            "t": "Unificación de Datos",
+            "d": "Genere un PDF profesional que incluya resúmenes de actividad, estadísticas de salud y evidencia fotográfica."
+        },
+        "design": {
+            "t": "Diseño Clínico",
+            "d": "Diseño limpio en blanco y negro para facilitar la lectura y reducir los costes de impresión."
+        },
+        "sharing": {
+            "t": "Envío Instantáneo",
+            "d": "Envíe el historial médico completo por WhatsApp, correo electrónico o cualquier canal para emergencias o consultas remotas."
+        }
+    },
+    "privacy": {
+        "title": "Privacidad radical: Sus datos son suyos",
+        "subtitle": "A diferencia de otras apps, Petlytics trata los datos de salud como algo extremadamente sensible.",
+        "storage": {
+            "t": "Almacenamiento Local",
+            "d": "Toda la información se almacena exclusivamente en su dispositivo. Nada se sube a servidores externos sin su consentimiento."
+        },
+        "tracking": {
+            "t": "Sin Rastreo ni Anuncios",
+            "d": "No vendemos sus datos a marcas de comida para mascotas ni a aseguradoras. Su experiencia es 100% privada y sin anuncios."
+        },
+        "backup": {
+            "t": "Control de Copias de Seguridad",
+            "d": "Usted decide. Exporte sus datos y guárdelos donde prefiera."
+        }
+    },
+    "multipet": {
+        "title": "Gestión ilimitada de múltiples mascotas",
+        "d": "¿Tiene una gran familia peluda? Gestione perfiles individuales para cada compañero. Cada mascota tiene su propio historial, documentos y seguimiento inteligente."
+    },
+    "footer": {
+        "why": "¿Por qué elegir Petlytics?",
+        "d1": "Cuando una mascota no se encuentra bien, el estrés puede hacernos olvidar detalles importantes. Petlytics actúa como su memoria clínica, permitiendo decisiones médicas basadas en hechos y cronologías precisas, no en suposiciones.",
+        "d2": "Mejore el diagnóstico, agilice las consultas y, sobre todo, dé a su compañero el cuidado proactivo que merece.",
+        "note": "Nota: Petlytics es una herramienta de apoyo y documentación. No sustituye la atención veterinaria profesional.",
+        "join": "Únase a la comunidad Petlytics y lleve la salud de su mascota al siguiente nivel.",
+        "copyright": "© 2026 Petlytics"
+    }
+}

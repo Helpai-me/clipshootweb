@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "features": "Features",
+    "support": "Support",
+    "join": "Join Petlytics"
+  },
+  "hero": {
+    "badge": "Public Beta",
+    "title": "Pet health.\nIn focus.",
+    "subtitle": "Everything that matters. One view.",
+    "cta": "Join the Beta",
+    "subtext": "Free for early adopters"
+  },
+  "intro": {
+    "title": "Built for clarity.",
+    "f1": "Clinical records",
+    "f2": "Symptom tracking",
+    "f3": "Smart alerts",
+    "f4": "PDF reports",
+    "f5": "Radical privacy"
+  },
+  "content": {
+    "p1": "Petlytics is a comprehensive pet health management platform, designed by and for owners who expect more than simple vaccination reminders.",
+    "p2": "It is a technical tool that transforms everyday observations into valuable clinical data for your veterinarian.",
+    "p3": "Have you ever gone to a vet appointment and struggled to remember exactly when your dog’s symptoms started? Or found it hard to track your cat’s weight after a diet change? Petlytics solves this and much more by organizing your pets’ medical lives in a secure, private, and professional environment."
+  },
+  "records": {
+    "title": "High-precision clinical records",
+    "subtitle": "Don’t leave your pet’s health to memory. With Petlytics, you can record:",
+    "symptoms": {
+      "t": "Symptoms and Observations",
+      "d": "From mild limping to changes in appetite or digestion. Add detailed notes so no nuance is lost."
+    },
+    "weight": {
+      "t": "Weight Management",
+      "d": "Progress charts to monitor obesity or excessive weight loss—key factors in long-term health."
+    },
+    "photos": {
+      "t": "Photographic Evidence",
+      "d": "Capture photos of skin issues, eye abnormalities, or unusual behaviors so your vet can see them exactly as they occurred."
+    },
+    "docs": {
+      "t": "Digitized Medical Documents",
+      "d": "Upload blood tests, ultrasound reports, and vaccination records. Keep your entire medical history in your pocket."
+    }
+  },
+  "intelligence": {
+    "title": "Clinical intelligence at your service",
+    "d1": "Petlytics includes an advanced Smart Alerts Engine. Our algorithm analyzes the frequency and severity of recorded events.",
+    "d2": "If it detects patterns that may indicate a health risk, you’ll receive an alert suggesting it’s time to consult a professional—like having a first line of prevention active 24/7."
+  },
+  "reports": {
+    "title": "PDF reports for professionals",
+    "subtitle": "The \"Vet Bridge\"",
+    "d1": "Our reports are designed to be genuinely useful in a veterinary setting.",
+    "unification": {
+      "t": "Data Unification",
+      "d": "Generate a professional PDF that includes activity summaries, health statistics, and photographic evidence."
+    },
+    "design": {
+      "t": "Clinical Design",
+      "d": "Clean, black-and-white layout for easy reading and reduced printing costs."
+    },
+    "sharing": {
+      "t": "Instant Sharing",
+      "d": "Send the complete medical history via WhatsApp, email, or any channel for emergencies or remote consultations."
+    }
+  },
+  "privacy": {
+    "title": "Radical privacy: Your data is yours",
+    "subtitle": "Unlike other apps, Petlytics treats health data as extremely sensitive.",
+    "storage": {
+      "t": "Local Storage",
+      "d": "All information is stored exclusively on your device. Nothing is uploaded to external servers without your consent."
+    },
+    "tracking": {
+      "t": "No Tracking or Ads",
+      "d": "We don’t sell your data to pet food brands or insurers. Your experience is 100% private and ad-free."
+    },
+    "backup": {
+      "t": "Backup Control",
+      "d": "You decide. Export your data and store it wherever you prefer."
+    }
+  },
+  "multipet": {
+    "title": "Unlimited multi-pet management",
+    "d": "Have a big furry family? Manage individual profiles for each companion. Every pet has its own history, documents, and intelligent tracking."
+  },
+  "footer": {
+    "why": "Why choose Petlytics?",
+    "d1": "When a pet isn’t feeling well, stress can make us forget important details. Petlytics acts as your clinical memory, enabling medical decisions based on facts and precise timelines—not assumptions.",
+    "d2": "Improve diagnosis, speed up consultations, and above all, give your companion the proactive care they deserve.",
+    "note": "Note: Petlytics is a support and documentation tool. It does not replace professional veterinary care.",
+    "join": "Join the Petlytics community and take your pet's health to the next level.",
+    "copyright": "© 2026 Petlytics"
+  }
+}
