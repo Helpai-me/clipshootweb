@@ -159,7 +159,7 @@ const playBullets = computed(() => {
 .policy {
   max-width: 900px;
   margin: 0 auto;
-  padding: 3rem 1.5rem 5rem;
+  padding: 7rem 1.5rem 5rem;
 }
 
 .policy__header {
