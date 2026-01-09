@@ -1,9 +1,5 @@
 <template>
   <section class="relative pt-48 pb-24 px-6 flex flex-col items-center text-center overflow-hidden">
-    <!-- Eyebrow -->
-    <div class="eyebrow mb-8 animate-fade-in">
-      {{ t('hero.badge') }}
-    </div>
 
     <!-- Main Title -->
     <h1 class="text-6xl md:text-8xl font-black tracking-tight text-slate-900 mb-8 whitespace-pre-line leading-[0.95] drop-shadow-sm">
@@ -17,11 +13,21 @@
 
     <!-- CTAs -->
     <div class="flex flex-col items-center gap-6">
-      <button class="btn-primary text-xl px-12 py-5">
-        {{ t('hero.cta') }}
-      </button>
+      <a 
+        href="https://play.google.com/store/apps/details?id=com.petlytics.app" 
+        target="_blank"
+        class="google-play-badge"
+      >
+        <img 
+          :src="locale === 'es' 
+            ? 'https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png'
+            : 'https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'"
+          alt="Get it on Google Play"
+          class="h-16 md:h-20"
+        />
+      </a>
       <span class="text-sm font-semibold text-slate-600 opacity-60">
-        {{ t('hero.subtext') }}
+        {{ locale === 'es' ? 'Disponible en Android' : 'Available on Android' }}
       </span>
     </div>
 
@@ -37,7 +43,7 @@
 </template>
 
 <script setup>
-const { t } = useI18n()
+const { t, locale } = useI18n()
 </script>
 
 <style scoped>

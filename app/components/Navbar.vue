@@ -19,13 +19,26 @@
         </div>
       </div>
 
-      <button class="bg-slate-900 text-white px-6 py-2 rounded-badge text-sm font-bold shadow-sm hover:bg-slate-800 hover:scale-105 transition-all">
-        {{ t('nav.join') }}
-      </button>
+      <a 
+        v-if="!isPrivacyPage"
+        href="https://play.google.com/store/apps/details?id=com.petlytics.app" 
+        target="_blank"
+        class="flex items-center"
+      >
+        <img 
+          :src="locale === 'es' 
+            ? 'https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png'
+            : 'https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'"
+          alt="Get it on Google Play"
+          class="h-10"
+        />
+      </a>
     </div>
   </nav>
 </template>
 
 <script setup>
 const { t, locale, setLocale } = useI18n()
+const route = useRoute()
+const isPrivacyPage = computed(() => route.path === '/privacy' || route.path === '/es/privacy')
 </script>

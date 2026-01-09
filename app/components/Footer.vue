@@ -14,9 +14,19 @@
         <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-pink-300/10 rounded-full blur-3xl"></div>
         
         <p class="text-3xl md:text-4xl text-slate-900 font-black mb-12 tracking-tight">{{ t('footer.join') }}</p>
-        <button class="btn-primary px-16 py-6 text-2xl shadow-lg">
-          {{ t('hero.cta') }}
-        </button>
+        <a 
+          href="https://play.google.com/store/apps/details?id=com.petlytics.app" 
+          target="_blank"
+          class="inline-block"
+        >
+          <img 
+            :src="locale === 'es' 
+              ? 'https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png'
+              : 'https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'"
+            alt="Get it on Google Play"
+            class="h-16 md:h-20"
+          />
+        </a>
       </div>
 
       <p class="max-w-2xl mx-auto text-[13px] text-slate-600 font-bold opacity-50 italic mb-20 leading-relaxed uppercase tracking-wider">
@@ -28,6 +38,11 @@
             <img src="/logo.png" alt="Petlytics" class="h-8 w-auto" />
             <span class="text-lg font-black text-slate-900 tracking-tight">Petlytics</span>
         </div>
+        <div class="flex items-center gap-6 text-sm font-semibold text-slate-600">
+          <NuxtLink to="/privacy" class="hover:text-slate-900 transition-colors">
+            {{ locale === 'es' ? 'Política de Privacidad' : 'Privacy Policy' }}
+          </NuxtLink>
+        </div>
         <p class="text-[11px] font-bold text-slate-600 uppercase tracking-[0.2em] opacity-60">
           {{ t('footer.copyright') }}
         </p>
@@ -37,5 +52,5 @@
 </template>
 
 <script setup>
-const { t } = useI18n()
+const { t, locale } = useI18n()
 </script>
