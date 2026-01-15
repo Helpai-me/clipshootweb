@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen overflow-x-hidden">
+  <div class="min-h-screen overflow-x-hidden bg-semantic-background text-semantic-text">
     <Navbar />
     
     <main>
@@ -11,12 +11,10 @@
 </template>
 
 <script setup>
-const { t } = useI18n()
-
 useHead({
-  title: 'Petlytics — Smart Pet Health Management',
+  title: 'ClipShoot — Smart App Mockups',
   meta: [
-    { name: 'description', content: 'Transform everyday observations into valuable clinical data for your veterinarian.' }
+    { name: 'description', content: 'Create stunning app mockups in seconds with ClipShoot.' }
   ]
 })
 </script>

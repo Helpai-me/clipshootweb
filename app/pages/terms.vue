@@ -11,118 +11,81 @@
         />
         <div>
           <p class="eyebrow">ClipShoot – App Mockups & Design</p>
-          <h1>Privacy Policy</h1>
+          <h1>Terms of Service</h1>
           <p class="policy__tagline">
-            ClipShoot is the ultimate tool for developers, designers, and creators who need to present apps professionally. Turn screenshots or recordings into elegant, share-ready mockups in seconds.
+            Welcome to ClipShoot. By using our tool, you agree to these terms.
           </p>
           <p class="policy__meta">
-            Last updated: 2026-01-05
+            Last updated: January 14, 2026
           </p>
         </div>
       </div>
 
       <section class="policy__section policy__section--highlight">
-        <h2>Quick Summary</h2>
+          <h2>Commitment Summary</h2>
         <ul class="policy__summary-list">
           <li>
             <span class="policy__check">✓</span>
-            No personal data collection
+            Your data is your exclusive property
           </li>
           <li>
             <span class="policy__check">✓</span>
-            All processing happens on your device
+            Strictly local and private use
           </li>
           <li>
             <span class="policy__check">✓</span>
-            No ads. No tracking. No data selling.
+            No hidden subscriptions or data selling
           </li>
           <li>
             <span class="policy__check">✓</span>
-            Permissions only for essential features
+            Professional design tools, not medical advice
           </li>
         </ul>
       </section>
 
       <div class="policy__grid">
         <section class="policy__section">
-          <h2>Data Collection</h2>
-          <p>ClipShoot is a client-side tool. We do not upload your screenshots or recordings to our servers. Processing happens locally on your device.</p>
+          <h2>1. Acceptance</h2>
+          <p>By using ClipShoot, you agree to these Terms. If you disagree, please do not use the tool.</p>
         </section>
 
         <section class="policy__section">
-          <h2>Local Processing</h2>
-          <p>Your creative assets remain on your machine. We value your intellectual property and privacy.</p>
+          <h2>2. Service</h2>
+          <p>ClipShoot is a mockup generation tool. We provide frames, backgrounds, and editing capabilities.</p>
         </section>
       </div>
 
       <section class="policy__section">
-        <h2>Usage</h2>
-        <ul>
-          <li>Create mockups from images and videos</li>
-          <li>Export in high resolution</li>
-          <li>Use for commercial and personal projects</li>
-        </ul>
-        <p class="policy__note">No ads. No tracking. No data selling.</p>
-      </section>
-
-      <section class="policy__section">
-        <h2>Sharing</h2>
-        <p>You own the exported content. Share it wherever you like.</p>
-      </section>
-
-      <section class="policy__section">
-        <h2>Permissions</h2>
-        <ul>
-          <li>File Access: To load your screenshots</li>
-          <li>Clipboard: To copy/paste images</li>
-        </ul>
-        <p class="policy__note">Permissions are requested only when performing specific actions.</p>
-      </section>
-
-      <div class="policy__grid">
-        <section class="policy__section">
-          <h2>Children</h2>
-          <p>Our service is safe for all ages as it does not collect personal data.</p>
-        </section>
-
-        <section class="policy__section">
-          <h2>Security</h2>
-          <p>Since data is not stored on our servers, your content is as secure as your own device.</p>
-        </section>
-      </div>
-
-      <div class="policy__grid">
-        <section class="policy__section">
-          <h2>Retention</h2>
-          <p>We don't retain your files. Once you close the tab, your session data is cleared.</p>
-        </section>
-
-        <section class="policy__section">
-          <h2>Changes</h2>
-          <p>We may update this policy as the app evolves.</p>
-        </section>
-      </div>
-
-      <section class="policy__section">
-        <h2>Contact Us</h2>
-        <p>
-          For privacy questions, email us at
-          <a class="policy__link" href="mailto:helpaimenow@gmail.com">helpaimenow@gmail.com</a>
+        <h2>3. Content Ownership</h2>
+        <p>You retain full ownership of the content you create and the assets you upload.</p>
+        <p class="policy__note">
+          IMPORTANT: ClipShoot provides tools, not legal or professional advice.
         </p>
       </section>
 
-      <section class="policy__section policy__section--play">
-        <h2>
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polygon points="5 3 19 12 5 21 5 3"/>
-          </svg>
-          Platform Guidelines
-        </h2>
-        <ul>
-          <li>Respects platform design guidelines</li>
-          <li>No unauthorized data collection</li>
-          <li>Safe for work environment</li>
-        </ul>
+      <div class="policy__grid">
+        <section class="policy__section">
+          <h2>4. License</h2>
+          <p>We grant you a license to use the generated mockups for personal and commercial purposes.</p>
+        </section>
+
+        <section class="policy__section">
+          <h2>5. Liability</h2>
+          <p>ClipShoot is provided 'as is'. We are not liable for any damages arising from its use.</p>
+        </section>
+      </div>
+
+      <section class="policy__section">
+        <h2>6. Updates</h2>
+        <p>We may update the tool and terms at any time.</p>
+      </section>
+
+      <section class="policy__section">
+        <h2>Contact</h2>
+        <p>
+          Questions? Email us at:
+          <a class="policy__link" href="mailto:helpaimenow@gmail.com">helpaimenow@gmail.com</a>
+        </p>
       </section>
     </main>
   </div>
@@ -130,14 +93,15 @@
 
 <script setup lang="ts">
 useHead({
-  title: "ClipShoot – Privacy Policy",
+  title: "ClipShoot – Terms of Service",
   meta: [
-    { name: "description", content: "Privacy Policy for ClipShoot. Your tool for premium app mockups." }
+    { name: "description", content: "Terms of Service for ClipShoot. Your tool for premium app mockups." }
   ]
 });
 </script>
 
 <style scoped>
+/* Resubusing styles from privacy.vue for consistency */
 .policy {
   max-width: 900px;
   margin: 0 auto;
@@ -278,21 +242,6 @@ useHead({
 
 .policy__link:hover {
   border-bottom-style: solid;
-}
-
-.policy__section--play {
-  background: linear-gradient(135deg, rgba(236, 72, 153, 0.08), rgba(139, 92, 246, 0.06));
-  border-color: rgba(236, 72, 153, 0.2);
-}
-
-.policy__section--play h2 {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.policy__section--play h2 svg {
-  color: #EC4899;
 }
 
 @media (max-width: 640px) {
